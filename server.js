@@ -597,4 +597,6 @@ if (process.env.ADMIN_EMAIL && process.env.ADMIN_PASSWORD) {
   }
 }
 
-app.listen(PORT, '0.0.0.0', () => console.log('SlideMind running on http://0.0.0.0:${PORT}'));
+app.listen(PORT, '0.0.0.0', () => console.log(`SlideMind running on http://0.0.0.0:${PORT}`));
+
+
